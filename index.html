@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Beranda - SPMI SMK Ma'arif 5 Gombong</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main>
+    <section>
+      <h2>Beranda</h2>
+      <p>Halaman Beranda masih dalam pengembangan.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SMK Ma'arif 5 Gombong</p>
+  </footer>
+
+  
+<script>
+  fetch("navbar.html")
+    .then(response => response.text())
+    .then(data => document.getElementById("navbar").innerHTML = data);
+</script>
+
+</body>
+</html>
